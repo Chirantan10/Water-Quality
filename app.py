@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import numpy as np
 import pickle
+from sklearn.ensemble._loss import SomeLossFunction  # Adjust as needed
 
 # Load saved model
 model = pickle.load(open('models/water (1).pkl','rb'))
