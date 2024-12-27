@@ -1,7 +1,7 @@
 Flask==2.3.3
 Flask-Cors==3.0.10
 pandas==1.5.3
-scikit-learn==1.1.2  # For loading and running the trained model
+scikit-learn==1.0.2  # For loading and running the trained model
 numpy==1.23.5        # Dependency of scikit-learn
 pandas==1.5.3        # For handling tabular data
 joblib==1.2.0        # For model serialization
